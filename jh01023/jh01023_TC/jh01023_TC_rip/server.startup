@@ -1,0 +1,5 @@
+ifconfig eth0 210.2.23.1 netmask 255.255.255.252 up
+route add default gw 210.2.23.2 dev eth0
+
+a2enmod userdir 
+/etc/init.d/apache2 start
